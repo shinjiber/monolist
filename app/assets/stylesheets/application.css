@@ -45,3 +45,28 @@ footer{
   font-weight: bold;
   letter-spacing: 0.15em;
 }
+
+/* search */
+.search{
+  margin-bottom: 20px;
+}
+
+  /* item */
+.item .panel-body{
+  height: 70px;
+}
+
+.item .panel-heading{
+  height: 250px;
+}
+
+.item .panel-heading img{
+  height: 100%;
+  max-width: 100%;
+}
+
+p.item-title{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
