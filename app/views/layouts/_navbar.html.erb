@@ -1,5 +1,5 @@
 <header>
-  <nav class='nabvar navbar-default navbar-static-top'>
+  <nav class='navbar navbar-default navbar-static-top'>
     <div class='container'>
       <div class='navbar-header'>
         
@@ -13,7 +13,7 @@
         <a class='navbar-left' href='/'><img src='/images/logo.png' alt='Monolist'></a>
       </div>
       
-      <div class='collapse nabvar-collapse'id='bs-example-navbar-collapse-1'>
+      <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
         
         <ul class='nav navbar-nav navbar-right'>
           
@@ -64,21 +64,21 @@
           </li>
           <li role='separator' class='divider'></li>
           <li>
-            <%= link_to 'ログアウト', logout_path, method: :delete %>
+<%= link_to 'ログアウト', logout_path, method: :delete %>
           </li>
         </ul>
       </li>
       
 <% else %>
           
-          
+    <ul class="nav navbar-nav navbar-right">
           <li>
 <%= link_to '新規登録', signup_path %>
           </li>
           <li>
 <%= link_to 'ログイン', login_path %>
           </li>
-          
+   </ul>
 <% end %>
 
         </ul>
