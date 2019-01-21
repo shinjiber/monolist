@@ -22,7 +22,7 @@ footer{
   margin-bottom: 20px;
   width: 100%;
   height: 300px;
-  background: url("images/cover-bg.jpg") center center no-repeat;
+  background: url("/images/cover-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -68,6 +68,7 @@ footer{
 p.item-title{
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
   overflow: hidden;
 }
 
